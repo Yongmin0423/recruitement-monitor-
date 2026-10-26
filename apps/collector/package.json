@@ -1,0 +1,19 @@
+{
+  "name": "@recruitment-monitor/collector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../scripts/dev-collector.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "deploy:dry-run": "wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "node-html-parser": "9.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "typescript": "5.9.3",
+    "wrangler": "4.152.0"
+  }
+}

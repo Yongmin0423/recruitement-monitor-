@@ -1,0 +1,21 @@
+{
+  "name": "@recruitment-monitor/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "^19",
+    "typescript": "5.9.3"
+  }
+}

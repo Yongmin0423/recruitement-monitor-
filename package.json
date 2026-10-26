@@ -1,0 +1,12 @@
+{
+  "name": "recruitment-monitor",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix apps/collector test",
+    "typecheck": "npm --prefix apps/collector run typecheck && npm --prefix apps/web run typecheck",
+    "build": "npm --prefix apps/web run build",
+    "setup:local": "node scripts/setup-local.mjs",
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:collector": "node scripts/dev-collector.mjs"
+  }
+}

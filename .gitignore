@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.wrangler/
+.dev.vars
+.env
+.env.local
+dist/
+coverage/
+.wrangler-logs/
+.config/
+*.tsbuildinfo
+/pnpm-lock.yaml
+/apps/web/next-env.d.ts
